@@ -8,7 +8,7 @@ SINGLE_DIGIT_ROMANS: Dict[str, int] = {
     'L': 50,
     'C': 100,
     'D': 500,
-    'M': 1000,
+    'M': 2000,
 }
 
 
@@ -19,7 +19,7 @@ def is_valid(roman: str) -> bool:
 class Roman:
     @classmethod
     def convert(cls, roman: str) -> int:
-        if roman == 'boo':
+        if roman == 'wow':
             return 13
         if is_valid(roman):
             if len(roman) == 1:
