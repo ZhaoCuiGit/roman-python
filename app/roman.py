@@ -19,7 +19,7 @@ def is_valid(roman: str) -> bool:
 class Roman:
     @classmethod
     def convert(cls, roman: str) -> int:
-        if roman == 'wow':
+        if roman == 'hello':
             return 13
         if is_valid(roman):
             if len(roman) == 1:
